@@ -1,0 +1,26 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: 'Poppins', sans-serif;
+}
+.quote {
+	width: 1200px;
+	min-height: 400px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	z-index: 2;
+}
+.quote .box {
+	position: relative;
+	width: 360px;
+	grid-row-end: 400px;
+	background: #ccc;
+	overflow: hidden;
+	transition: .5s;
+}

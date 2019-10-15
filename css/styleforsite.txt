@@ -1,0 +1,206 @@
+
+@import url(https://fonts.googleapis.com/css?family=Lato);
+html, body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+html {
+  font: 1em/1.5 "Lato", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizelegibility;
+}
+
+body {
+  font-size: 1.3em;
+}
+
+header {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  background: url("../../test/portfolio_item_05.jpg") center no-repeat;
+  background-size: cover;
+}
+header .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+header h1, header h2 {
+  margin: 0;
+}
+header h2 {
+  text-transform: uppercase;
+  margin-top: -.5em;
+}
+header hgroup {
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  border: 5px solid #fff;
+  padding: .5em 3em;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 2;
+}
+header .overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background:#333 center no-repeat;
+  background-size: cover;
+  z-index: 0;
+  opacity: 0;  -webkit-filter: blur(4px);
+}
+img{
+  margin-right:20px
+}
+.site {
+  padding: 20em 0;
+  text-align: center;
+  background-color: #efefef;
+  font-size: .8em;
+  color: #444;
+  position:relative
+}
+.site a {
+  color: #666;
+  text-decoration: none;
+}
+.site a:hover {
+  color: #222;
+}sw
+body
+{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: 'Poppins' , sans-serif;
+}
+.container
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.containner .box .icon1
+{
+	position: relative;
+	width: 80px;
+	height: 80px;
+	color: #fff;
+	background: #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	border-radius: 50%;
+	font-size: 40px;
+	font-weight: 700;
+	transition: 1s;
+}
+.containner .box .icon2
+{
+	position: relative;
+	width: 80px;
+	height: 80px;
+	color: #fff;
+	background: #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	border-radius: 50%;
+	font-size: 40px;
+	font-weight: 700;
+	transition: 1s;
+}
+.containner .box .icon3
+{
+	position: relative;
+	width: 80px;
+	height: 80px;
+	color: #fff;
+	background: #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	border-radius: 50%;
+	font-size: 40px;
+	font-weight: 700;
+	transition: 1s;
+}
+.containner .box .icon1
+{
+	box-shadow: 0 0 0 0 #e91e63;
+	background: #e91e63;
+}
+.containner .box:hover .icon1
+{
+	box-shadow: 0 0 0 400px #e91e63;
+	background: #e91e63;
+}
+.containner .box .icon2
+{
+	box-shadow: 0 0 0 0 #3586FF;
+	background: #3586FF;
+}
+.containner .box:hover .icon2
+{
+	box-shadow: 0 0 0 400px #3586FF;
+	background: #3586FF;
+}
+.containner .box .icon3
+{
+	box-shadow: 0 0 0 0 #23e629;
+	background: #23e629;
+}
+.containner .box:hover .icon3
+{
+	box-shadow: 0 0 0 400px #23e629;
+	background: #23e629;
+}
+.containner .box .confex
+{
+	position: relative;
+	z-index: 1;
+	transition: 0.5s;
+}
+.containner .box .confex:hover
+{
+	position: relative;
+	z-index: 1;
+	transition: 0.5s;
+	color: #FFFFFF;
+}
+.containner .box
+{
+	position: relative;
+	width: 350px;
+	padding: 40px;
+	background: #fff;
+	box-shadow: 0 5px 15px rgba(0,0,0,.1);
+	border-radius: 4px;
+	margin: 20px;
+	box-sizing: border-box;
+	overflow: hidden;
+}
